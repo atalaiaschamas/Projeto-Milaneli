@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pessoas</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="img/fap-online.png">
+        <button type="submit" class="btn btn-primary, botao">Cadastro</button>
+        <button type="submit" class="btn btn-primary">Pessoas</button>
+        <button type="submit" class="btn btn-primary">Icone</button>
+    </header>
+
+    <div class="corpo">
+
+        <div class="conteudo">
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <h3 class="lista_pessoas"><span class="lista">Lista</span> de pessoas</h3>
+                    <p class="pesquisa">Aqui voçê encontra todos os funcionarios cadastros.
+                        Utilize a busca para filtrar resultados especificos.
+                    </p>
+                    <hr>
+                                        
+                    <table id="table" class="table mt-2">
+
+                        <thead>
+                            <tr>
+                                <th scope="col">Nome</th>
+                                <th scope="col">CPF</th>
+                                <th scope="col">E-mail</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Alfredo</th>
+                                <td>333.333.333-83</td>
+                                <td>alfredo@outlook.com</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">João</th>
+                                <td>111.111.111-91</td>
+                                <td>joao@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Pedro</th>
+                                <td>222.222.222-22</td>
+                                <td>pedro@hotmail.com</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Guilherme</th>
+                                <td>444.444.444-44</td>
+                                <td>guilherme@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Rodrigo</th>
+                                <td>555.555.555-55</td>
+                                <td>rodrigo@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Claudiney</th>
+                                <td>666.666.666-66</td>
+                                <td>ney@gmail.com</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="rodape">
+            <footer>
+                <p>Copyright 2018. Milanelli.Todos os direitos reservados.</p>
+            </footer>
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/datatables.min.js"></script>
+    <script src="js/pessoas.js"></script>
+</body>
+
+</html>
